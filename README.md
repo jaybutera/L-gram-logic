@@ -7,7 +7,7 @@
     | Takes a list L as a seed and generates N apps of the L system. Result
     | stored in LST.
 
-'''
+```
 ?- iter_seq([1], X, 1).
 X = [2, 4, 5, 5, 1, 6, 3, 1, 6, 3, 2, 5, 3, 2, 1, 6, 4, 1]
-'''
+```
