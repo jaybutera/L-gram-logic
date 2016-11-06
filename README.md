@@ -1,15 +1,15 @@
 ##L Systems in ASP
 
-## iter_seq(L,LST,N)
-    | Takes a list L as a seed and generates N apps of the L system.
-    | Recursively calls gen_l_seq. Result stored in LST.
+### iter_seq(L,LST,N)
+    Takes a list L as a seed and generates N apps of the L system.
+    Recursively calls gen_l_seq. Result stored in LST.
 
-## isSimilar(LST, LST2)
-    | Takes 2 lists and will return true if they are apart of the same tree.
-    | LST should be the larger of the two lists.
+### isSimilar(LST, LST2)
+    Takes 2 lists and will return true if they are apart of the same tree.
+    LST should be the larger of the two lists.
 
 #### gen_l_seq(L2,ACC,ACC2)
-    | Takes a list L2 as a seed and generates a final sequence in ACC2.
+    Takes a list L2 as a seed and generates a final sequence in ACC2.
 
 ```
 ?- gen_l_seq([1],[],LIST).
